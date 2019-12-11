@@ -1,0 +1,20 @@
+{
+  "name": "chat-app-my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js -e js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0",
+    "socketio": "^1.0.0"
+  }
+}
